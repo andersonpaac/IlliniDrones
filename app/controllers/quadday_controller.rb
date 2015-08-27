@@ -1,0 +1,2 @@
+class QuaddayController < ApplicationController
+end

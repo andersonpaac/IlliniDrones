@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3662200467">
+    <data-source source="LOCAL" name="Rails IlliniDrones: development" uuid="83c56066-24e8-4b7e-8a4b-cffc8ab638f5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:IlliniDrones_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails IlliniDrones: test" uuid="6324bc68-9eb2-484f-afa9-d4bbe8412b13">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:IlliniDrones_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails IlliniDrones: production" uuid="83ab71d2-f1d9-455a-b59a-20a226bb3a85">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:IlliniDrones_production</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

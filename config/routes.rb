@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/team'
+
+  get 'static_pages/safety'
+
+  get 'static_pages/media'
+
+  get 'static_pages/contact'
+
+  get 'static_pages/quadday'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

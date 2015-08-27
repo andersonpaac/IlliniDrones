@@ -1,0 +1,2 @@
+module QuaddayHelper
+end

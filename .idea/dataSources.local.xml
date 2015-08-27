@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails IlliniDrones: development" uuid="83c56066-24e8-4b7e-8a4b-cffc8ab638f5" />
+    <data-source name="Rails IlliniDrones: test" uuid="6324bc68-9eb2-484f-afa9-d4bbe8412b13" />
+    <data-source name="Rails IlliniDrones: production" uuid="83ab71d2-f1d9-455a-b59a-20a226bb3a85">
+      <user-name>IlliniDrones</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe3dfe6dfe6dfe3dfe4dfe3dfeedff8dfe5dfe4dfefdff9dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>

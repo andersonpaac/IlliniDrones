@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails IlliniDrones: development" uuid="83c56066-24e8-4b7e-8a4b-cffc8ab638f5">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails IlliniDrones: test" uuid="6324bc68-9eb2-484f-afa9-d4bbe8412b13">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails IlliniDrones: production" uuid="83ab71d2-f1d9-455a-b59a-20a226bb3a85">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
