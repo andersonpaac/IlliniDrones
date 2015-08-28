@@ -1,2 +1,268 @@
-<h1>StaticPages#safety</h1>
-<p>Find me in app/views/static_pages/safety.html.erb</p>
+<!DOCTYPE html>
+<html lang="en">
+<%= stylesheet_link_tag "mystyle.css" %>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <!-- Important Owl stylesheet -->
+  <link rel="stylesheet" href="/owl.carousel.css">
+
+  <!-- Default Theme -->
+  <link rel="stylesheet" href="/owl.theme.css">
+
+  <!--  jQuery 1.7+  -->
+  <!-- Include js plugin -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Illini Drones">
+  <meta name="author" content="Lawrence Elitzer and Anuragg Vankayala">
+
+  <title>Illini Drones</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/safety/bootstrap.min.css" rel="stylesheet">
+  <link href="/safety/anustart.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/safety/grayscale.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/safety/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <!-- About Section -->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <i class="fa fa-play-circle"></i>  <span class="light">Illini</span> Drones
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#about">Team</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#download">Media</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+
+<!-- Intro Header -->
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="brand-heading">Illini Drones</h1>
+          <p class="intro-text">Come join us and fly some drones!</p>
+          <a href="#about" class="btn btn-circle page-scroll">
+            <i class="fa fa-angle-double-down animated"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<section id="about" class="container content-section text-center">
+
+  <h3 class="text-center">Our Team!</h3>
+  <ul class="timeline">
+    <li>
+      <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/max_ranger.jpg" alt="">
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>Max Goin</h4>
+
+          <h4 class="subheading">DIY dude</h4>
+        </div>
+        <div class="timeline-body">
+          <p class="text-muted">
+            Max Goin is the RC purist of the truest form. He builds everything from scratch , his equipment sets the bar
+            for everyone at Illini Drones. When he's not busy working racing mini quads , building FPV antennas and
+            fixing up after a previous crash -he studies microbiology.
+          </p>
+        </div>
+      </div>
+      <div class="line"></div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/law_gps.jpg" alt="">
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>Lawrence Elitzer</h4>
+          <h4 class="subheading">Treasurer</h4>
+        </div>
+        <div class="timeline-body">
+          <p class="text-muted">
+            Everyone in the hobby knows how expensive it can get to fix up broken gear or do minor upgrades. Lawrence Elitzer
+            is the treasurer at Illini Drones. He flies a 250 sized mini quad and helps keep track of what Illini Drones needs
+            financially to keep it's member base.
+          </p>
+        </div>
+      </div>
+      <div class="line"></div>
+    </li>
+    <li>
+      <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/amr-2.PNG" alt="">
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>Amrutha Varshini</h4>
+          <h4 class="subheading">Engineering/Aerial Photography</h4>
+        </div>
+        <div class="timeline-body">
+          <p class="text-muted">
+            Amrutha is an electical engineer at Illini Drones who indulges herself in Aerial Photography. She has excellent work ethic and
+            has previously worked with the University to build unmanned rovers for NASA. Her creativity can be observed in the pictures she takes and skill in
+            her fluid stick movement.
+          </p>
+        </div>
+      </div>
+      <div class="line"></div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/anderson.png" alt="">
+      </div>
+      <div >
+        <div class="timeline-heading">
+          <h4>Anderson/Anuraag</h4>
+          <h4 class="subheading">AP Guy</h4>
+        </div>
+        <div class="timeline-body">
+          <p class="text-muted pushit">
+           Anderson works as a computer engineer on our team and he loves to play with APs.
+          </p>
+        </div>
+      </div>
+      <div class="line"></div>
+    </li>
+    <li>
+      <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/phil-1.png" alt="Phil Yo">
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>Phil</h4>
+          <h4 class="subheading">Physicist</h4>
+        </div>
+        <div class="timeline-body">
+          <p class="text-muted">
+            Phil is the drone-enthusiast who loves to fly his micro quad. He makes mods to his Hubsan and flies like a true pro. He loves to fly acro and knows his gear.
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!-- Download Section -->
+<section id="download" class="content-section text-center">
+  <div class="download-section">
+
+
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container content-section text-center">
+  <div id="owl-demo" class="owl-carousel owl-theme">
+
+    <div class="item"><img src="/law_gps_0.jpg" alt="The Last of us"></div>
+    <div class="item"><img src="/say_hi.jpg" alt="Mirror Edge"></div>
+    <div class="item"><img src="/max_tree.jpg" alt="Mirror Edge"></div>
+    <div class="item"><img src="/close.jpg" alt="Mirror Edge"></div>
+    <div class="item"><img src="/ECEB.jpg" alt="Build"></div>
+    <div class="item"><img src="/few.jpg" alt="Build"></div>
+    <div class="item"><img src="/phantom.jpg" alt="Build"></div>
+    <div class="item"><img src="/max_ww.PNG" alt="Build"></div>
+
+
+  </div>
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Contact Illini Drones </h2>
+      <p>If you're interested in getting to know the organization or any members of our team ,feel free to contact us!</p>
+      <p><a href="mailto:feedback@startbootstrap.com">admin@illinidrones.me</a>
+      </p>
+      <ul class="list-inline banner-social-buttons">
+        <li>
+          <a href="https://www.facebook.com/groups/1712222652344396/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook Group</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Map Section -->
+<div id="map"></div>
+
+<!-- Footer -->
+<footer>
+  <div class="container text-center">
+    <p>Copyright &copy; Illini Drones 2015</p>
+  </div>
+</footer>
+
+<!-- jQuery Version 1.11.0 -->
+<script src="/safety/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/safety/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/safety/jquery.easing.min.js"></script>
+
+
+
+<!-- AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfYVsHyzbHDRzoQAI_k-r17Tm_QhJIsg8&sensor=false"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/safety/grayscale.js"></script>
+<script src="/owl.carousel.js"></script>
+<script src="/runner.js"></script>
+</body>
+
+</html>

@@ -1,4 +1,35 @@
+.navbar-fixed-top {
+    background-color: transparent;
+    height: 2%
+}
+.clearfix{
+    margin-top: 4%;
+}
 
+.navbar-fixed-top a{
+    color: darkorange;
+    font-size: larger;
+    font-family: Lato;
+
+}
+.navbar-fixed-top p{
+    color: darkorange;
+    font-family: Merriweather;
+    font-size: x-large;
+}
+
+.pushback{
+    margin-top: 2%;
+}
+
+.pushback-jumbo{
+    margin-top: 3%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    color: darkorange;
+    min-height: 89%;
+}
 
 html,body{
     height: 100%;
@@ -160,15 +191,14 @@ html,body{
 .bgac{
     background-color: black;
 }
-
+.padded-low{
+    margin-top: 200px;
+}
 
 #owl-demo .item img{
     display: inline;
     width: 100%;
     height: 10%;
+    margin-top: 5%;
 }
 
-
-.pushit{
-    padding-left:5em;
-}
